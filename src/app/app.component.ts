@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'homework2';
+
+  navItems = [
+    {
+      name: "Movies",
+      routerLink: "movies"
+    }
+  ]
+
 }
